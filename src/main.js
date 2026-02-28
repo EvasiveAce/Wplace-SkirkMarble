@@ -3830,7 +3830,7 @@ function buildOverlayMain() {
     .addDiv({'id': 'bm-contain-header'})
       .addDiv({'id': 'bm-bar-drag'}).buildElement()
       .addDiv({'id': 'bm-title-container'})
-        .addImg({'alt': 'Blue Marble Icon - Click to minimize/maximize', 'src': 'https://raw.githubusercontent.com/Seris0/Wplace-SkirkMarble/main/dist/assets/Favicon.png', 'style': 'cursor: pointer; width: 42px; height: 42px;'}, 
+        .addImg({'alt': 'Blue Marble Icon - Click to minimize/maximize', 'src': 'https://raw.githubusercontent.com/EvasiveAce/Wplace-SkirkMarble/main/dist/assets/Favicon.png', 'style': 'cursor: pointer; width: 42px; height: 42px;'}, 
           (instance, img) => {
           /** Click event handler for overlay minimize/maximize functionality.
            * 
@@ -4530,7 +4530,7 @@ function buildOverlayMain() {
           }).buildElement()
         .buildElement()
         .addDiv({'style': 'position: absolute; left: 0; bottom: 2px; text-align: left; padding: 0; pointer-events: auto; user-select: text; line-height: 12px;'}).
-        addSmall({'textContent': `Made by SwingTheVine | Fork Seris0 | v${version}`, 'style': 'color: #94a3b8; font-size: 0.74em; opacity: 0.85;'}).buildElement()        .buildElement()
+        addSmall({'textContent': `Made by SwingTheVine | Fork EvasiveAce | v${version}`, 'style': 'color: #94a3b8; font-size: 0.74em; opacity: 0.85;'}).buildElement()        .buildElement()
       .buildElement()
     .buildElement()
   .buildOverlay(document.body);
