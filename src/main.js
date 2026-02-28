@@ -1,4 +1,4 @@
-/** @file The main file. Everything in the userscript is executed from here.
+as/** @file The main file. Everything in the userscript is executed from here.
  * @since 0.0.0
  */
 
@@ -4131,7 +4131,7 @@ function buildOverlayMain() {
           });
         }
       ).buildElement()
-      .addHeader(1, {'textContent': 'Skirk Marble'}).buildElement()
+      .addHeader(1, {'textContent': 'Evasive Marble'}).buildElement()
     .buildElement()
 
     .addDiv({ 
